@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="TextAdornment1..17fe9533-c417-4f5b-9781-1192a61a8410" Version="1.21" Language="en-US" Publisher="Paul Rogero" />
+    <DisplayName>Region Highlights</DisplayName>
+    <Description>This extension highlights #region directives to make them stand out.</Description>
+    <Icon>6-19-2012  9.03.50 AM.jpg</Icon>
+    <PreviewImage>6-19-2012  9.07.14 AM.jpg</PreviewImage>
+    <Tags>editor, regions, c#, Coding</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="10.0" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.0" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
+</PackageManifest>
