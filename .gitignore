@@ -5,6 +5,10 @@
 *.suo
 *.user
 *.sln.docstates
+/.vs/
+
+#ignore thumbnails created by windows
+Thumbs.db
 
 # Build results
 
