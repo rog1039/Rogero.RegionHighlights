@@ -1,18 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAdornment1", "TextAdornment1\TextAdornment1.csproj", "{5A1FA18E-2F50-4F14-A9B1-75B451C63BB5}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfs12:8080/tfs/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = TextAdornment1\\TextAdornment1.csproj
-		SccProjectName1 = TextAdornment1
-		SccLocalPath1 = TextAdornment1
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
