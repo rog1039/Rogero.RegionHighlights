@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Utilities;
 
-namespace TextAdornment1
+namespace RegionHighlightAdornment
 {
     #region Adornment Factory
     /// <summary>
@@ -12,14 +12,14 @@ namespace TextAdornment1
     [Export(typeof(IWpfTextViewCreationListener))]
     [ContentType("text")]
     [TextViewRole(PredefinedTextViewRoles.Document)]
-    internal sealed class TextAdornment1Factory : IWpfTextViewCreationListener
+    internal sealed class RegionHighlightAdornmentFactory : IWpfTextViewCreationListener
     {
         /// <summary>
         /// Defines the adornment layer for the adornment. This layer is ordered 
         /// after the selection layer in the Z-order
         /// </summary>
         [Export(typeof(AdornmentLayerDefinition))]
-        [Name("TextAdornment1")]
+        [Name("RegionHighlightAdornmentLayer")]
         [Order(After = PredefinedAdornmentLayers.Selection, Before = PredefinedAdornmentLayers.Text)]
         public AdornmentLayerDefinition editorAdornmentLayer = null;
 
@@ -29,7 +29,7 @@ namespace TextAdornment1
         /// <param name="textView">The <see cref="IWpfTextView"/> upon which the adornment should be placed</param>
         public void TextViewCreated(IWpfTextView textView)
         {
-            new TextAdornment1(textView);
+            new RegionHighlightAdorner(textView);
         }
     }
     #endregion //Adornment Factory
