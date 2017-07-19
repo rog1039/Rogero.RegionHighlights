@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegionHighlightAdornment", "TextAdornment1\RegionHighlightAdornment.csproj", "{5A1FA18E-2F50-4F14-A9B1-75B451C63BB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegionHighlightAdornment", "src\RegionHighlightAdornment\RegionHighlightAdornment.csproj", "{5A1FA18E-2F50-4F14-A9B1-75B451C63BB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

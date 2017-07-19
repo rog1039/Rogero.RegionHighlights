@@ -4,7 +4,7 @@
 
 Preview of regions in Visual Studio:
 
-![Preview of Extension](Src/RegionHighlights/TextAdornment1/Screenshot.jpg)
+![Preview of Extension](img/Screenshot.jpg)
 
 ### Supported Visual Studio Versions
 * VS 2012

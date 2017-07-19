@@ -5,7 +5,7 @@
 *.suo
 *.user
 *.sln.docstates
-/.vs/
+.vs/
 
 #ignore thumbnails created by windows
 Thumbs.db
@@ -16,7 +16,7 @@ Thumbs.db
 [Rr]elease/
 x64/
 build/
-#[Bb]in/
+[Bb]in/
 [Oo]bj/
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
