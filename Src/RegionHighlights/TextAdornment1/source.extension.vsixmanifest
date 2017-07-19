@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="TextAdornment1..17fe9533-c417-4f5b-9781-1192a61a8410" Version="1.21" Language="en-US" Publisher="Paul Rogero" />
+    <Identity Id="TextAdornment1..17fe9533-c417-4f5b-9781-1192a61a8410" Version="1.24" Language="en-US" Publisher="Paul Rogero" />
     <DisplayName>Region Highlights</DisplayName>
     <Description>This extension highlights #region directives to make them stand out.</Description>
-    <Icon>6-19-2012  9.03.50 AM.jpg</Icon>
-    <PreviewImage>6-19-2012  9.07.14 AM.jpg</PreviewImage>
+    <MoreInfo>https://github.com/rog1039/Rogero.RegionHighlights</MoreInfo>
+    <Icon>RegionHighlights.ico</Icon>
+    <PreviewImage>Screenshot.jpg</PreviewImage>
     <Tags>editor, regions, c#, Coding</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[10.0,16.0)" />
-    <InstallationTarget Version="[10.0,16.0)" Id="Microsoft.VisualStudio.Community" />
-    <InstallationTarget Version="[10.0,16.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,16.0)" />
+    <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.Enterprise" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.0" />
