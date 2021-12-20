@@ -1,27 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="TextAdornment1..17fe9533-c417-4f5b-9781-1192a61a8410" Version="1.24" Language="en-US" Publisher="Paul Rogero" />
-        <DisplayName>Region Highlights</DisplayName>
-        <Description>This extension highlights #region directives to make them stand out.</Description>
-        <MoreInfo>https://github.com/rog1039/Rogero.RegionHighlights</MoreInfo>
-        <Icon>RegionHighlights.ico</Icon>
-        <PreviewImage>Screenshot.jpg</PreviewImage>
-        <Tags>editor, regions, c#, Coding</Tags>
-    </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,17.0)" />
-        <InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Community" />
-        <InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
-    </Installation>
-    <Dependencies>
-        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.0" />
-    </Dependencies>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
-    </Assets>
-    <Prerequisites>
-        <!--<Prerequisite Id="Microsoft.Net.Component.4.5.TargetingPack" Version="[16.0.28517.75,17.0)" DisplayName=".NET Framework 4.5 targeting pack" />-->
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" /> 
-    </Prerequisites>
+  <Metadata>
+    <Identity Id="TextAdornment1..17fe9533-c417-4f5b-9781-1192a61a8410" Version="1.24" Language="en-US" Publisher="Paul Rogero" />
+    <DisplayName>Region Highlights</DisplayName>
+    <Description>This extension highlights #region directives to make them stand out.</Description>
+    <MoreInfo>https://github.com/rog1039/Rogero.RegionHighlights</MoreInfo>
+    <Icon>RegionHighlights.ico</Icon>
+    <PreviewImage>Screenshot.jpg</PreviewImage>
+    <Tags>editor, regions, c#, Coding</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Pro">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Community">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Enterprise">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.0" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
+  <Prerequisites>
+    <!--<Prerequisite Id="Microsoft.Net.Component.4.5.TargetingPack" Version="[16.0.28517.75,17.0)" DisplayName=".NET Framework 4.5 targeting pack" />-->
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
 </PackageManifest>
