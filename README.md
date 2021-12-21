@@ -12,4 +12,5 @@ Preview of regions in Visual Studio:
 * VS 2015
 * VS 2017
 * VS 2019
+* VS 2022
 
