@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="TextAdornment1..17fe9533-c417-4f5b-9781-1192a61a8410" Version="1.25" Language="en-US" Publisher="Paul Rogero" />
+    <Identity Id="TextAdornment1..17fe9533-c417-4f5b-9781-1192a61a8410" Version="1.26" Language="en-US" Publisher="Paul Rogero" />
     <DisplayName>Region Highlights</DisplayName>
     <Description>This extension highlights #region directives to make them stand out.</Description>
     <MoreInfo>https://github.com/rog1039/Rogero.RegionHighlights</MoreInfo>
